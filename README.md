@@ -2,18 +2,17 @@
 
 #### !!!For testing only, not safe to real transation
 
-Quick get paypal token from SSL server
+#### Quick get paypal token from SSL server
 
-Some of the serve might not have SHA-256 SSL cert, this is a quick method to handle paypal proccess from some installed cert server (e.g. Heroku)
+* Some of the serve might not have SHA-256 SSL cert, this is a quick method to handle paypal proccess from some installed cert server (e.g. Heroku)
 
-Just simply publish to your app engine then call the api for handle payment. 
+* Just simply publish to your app engine then call the api for handle payment. 
 
-( Please edited secret in index.php row 11 before start)
+* ( Please edited secret in index.php row 11 before start)
 
 | Key | Method | Description |
 |----|----|----|
-| 
-| POST | Prevent call from stranger |
+| secret | POST | Prevent call from stranger |
 | paypal_token | POST | Your paypal token if retrived before |
 | payment_id | POST | Payment id for execute payment |
 | payer_id | POST | Payer id for execute payment |
