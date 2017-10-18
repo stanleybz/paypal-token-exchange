@@ -1,6 +1,6 @@
 # paypal-token-exchange
 
-#### !!!For testing only, not safe to real transation
+#### !!!For testing only, not safe to real transaction
 
 #### Quick get paypal token from SSL server
 
